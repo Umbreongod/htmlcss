@@ -1,1 +1,91 @@
-/* css */
+/*css*/
+body{
+    margin:0px;
+    padding:0px;
+   background-color:black;
+}
+#page{
+    padding:40px;
+}
+#header{
+    padding:0px;
+    background-color:gray;
+    color:black;
+}
+h1{
+    padding:20px 40px;
+    margin:0px;
+    font-family:Verdana;
+    font-size:60pt;
+}
+h2, h3 {
+    font-family:arial;
+}
+.spotlight{
+    background-color:pink;
+    padding:20px;
+}
+
+/* navigation */
+#nav, #nav a{
+    background-color:#ccc;       /*this sets a background color to grey*/
+    padding:10px;
+    
+}
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;
+    transition: background-color 2s;  /*this times the background to change into a different color in 2 seconds*/
+}
+
+#nav a:hover {
+    background-color:#aaafff;     /*this changed the background color to a dark gray*/
+    color:black;
+    transition: color 2s;
+}
+
+/* end navigation */
+#content {
+    padding:20px 40px;
+    background-color:#eee;
+    font-family:arial;
+    margin:0px;
+}
+#footer , ul {
+    padding:20px 40px;
+    margin:0px;
+    color:white;
+    text-decoration:none;
+}
+
+#this {
+    color:black;
+    background-color:pink;
+    padding:10px;
+}
+/*#header:hover {
+    width:200px;
+    color:black;
+    background-color:pink;
+    transition: width 2s, background-color 2s, color 2s;
+}
+#header h2{
+    background-color:#6666ff;
+    padding:9px;
+}
+
+#header h2:hover {
+    background-color:green;
+    transition: background-color 2s; 
+    font-size:30px;
+    padding:9px;
+}
+#content{
+    
+}
+#footrt{
+    
+}
+*/
